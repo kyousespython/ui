@@ -458,14 +458,14 @@ function KaosHub:CreateWindow(title, gameName, intro)
         end
     end
 
-    CFAHub:DraggingEnabled(Header, Container)
+    KaosHub:DraggingEnabled(Header, Container)
 
-    CFAHubGui.Name = GuiName
-    CFAHubGui.Parent = CoreGui
-    CFAHubGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+    KaosHubGUI.Name = GuiName
+    KaosHubGUI.Parent = CoreGui
+    KaosHubGUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
     Container.Name = "Container"
-    Container.Parent = CFAHubGui
+    Container.Parent = KaosHubGui
     Container.AnchorPoint = Vector2.new(0.5, 0.5)
     Container.BackgroundColor3 = themes.Container
     Objects[Container] = "Container"
