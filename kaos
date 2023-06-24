@@ -9,9 +9,11 @@ repeat wait() until game.Players.LocalPlayer.Character
 repeat wait() until game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart")
 
 warn("Checking Whitelist...")
+wait()
 warn("Successfully Whitelisted.")
 warn("Checking Game Bypass..")
 warn("Checking other Instances..")
+wait()
 warn("Kaos Hub Loaded.")
 
 local Fully_Support_Exploits = {"Krnl", "Synapse X", "Electron", "Valyse"}
