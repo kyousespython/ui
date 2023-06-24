@@ -133,7 +133,7 @@ end
 
 local GuiName = "KaosHub"
 
-function CFAHub:CreateWindow(title, gameName, intro)
+function KaosHub:CreateWindow(title, gameName, intro)
     title = title or "<font color=\"#1CB2F5\">KaosHub</font>"
     gameName = gameName or "N/A"
 
