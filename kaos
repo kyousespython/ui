@@ -8,13 +8,14 @@ repeat wait() until game.Players.LocalPlayer
 repeat wait() until game.Players.LocalPlayer.Character
 repeat wait() until game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart")
 
-warn("Checking Whitelist...")
-warn("Successfully Whitelisted.")
+warn("Checking Whitelist..")
+wait(0.2)
+warn("Successfully Whitelisted..")
 warn("Checking Game Bypass..")
 warn("Checking other Instances..")
-warn("Kaos Hub Loaded.")
+print("Kaos Hub Loaded.")
 
-local Fully_Support_Exploits = {"Krnl", "Synapse X", "Electron", "Valyse"}
+local Fully_Support_Exploits = {"Electron", "Valyse", "Fluxus", "ScriptWare"}
 
 local Tween = game:GetService("TweenService")
 local Tweeninfo = TweenInfo.new
@@ -145,7 +146,7 @@ function KaosHub:CreateWindow(title, gameName, intro)
     end
 
     local themes = {
-        SchemaColor = Color3.fromRGB(255, 0, 255),
+        SchemaColor = Color3.fromRGB(0, 38, 255),
         TextColor = Color3.fromRGB(255, 255, 255),
         Header = Color3.fromRGB(22, 22, 22),
         Container = Color3.fromRGB(34, 34, 34),
@@ -154,8 +155,8 @@ function KaosHub:CreateWindow(title, gameName, intro)
         Drop = Color3.fromRGB(28, 28, 28),
         ScrollBar = Color3.fromRGB(149, 149, 149),
         NotiBackground = Color3.fromRGB(0, 0, 0),
-        Glow = Color3.fromRGB(255, 0, 255),
-        Logo = "rbxassetid://13564987718"
+        Glow = Color3.fromRGB(0, 38, 255),
+        Logo = "rbxassetid://14356520178"
     }
 
     table.insert(KaosHub, title)
