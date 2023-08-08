@@ -156,7 +156,7 @@ function KaosHub:CreateWindow(title, gameName, intro)
         ScrollBar = Color3.fromRGB(149, 149, 149),
         NotiBackground = Color3.fromRGB(0, 0, 0),
         Glow = Color3.fromRGB(0, 38, 255),
-        Logo = "rbxassetid://14356520178"
+        Logo = "rbxassetid://14356565653"
     }
 
     table.insert(KaosHub, title)
