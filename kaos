@@ -13,7 +13,7 @@ wait(0.2)
 warn("Successfully Whitelisted..")
 warn("Checking Game Bypass..")
 warn("Checking other Instances..")
-print("Kaos Hub Loaded.")
+print("Kaos Hub Loaded!")
 
 local Fully_Support_Exploits = {"Electron", "Valyse", "Fluxus", "ScriptWare"}
 
